@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Mi Portafolio</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="./img/me.png" alt="Mi foto" class="profile-img">
+                    <h2>Nayib Obeso</h2>
+                    <p>Futuro desarrollador web</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./img/proyecto-1.png" alt="Proyecto 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Amet nemo expedita modi placeat veritatis consectetur excep</p>
+                            <a href="#" class="project-link">Ver proyecto</a>
+                        </div>
+                    </article>
+
+                   
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./img/proyecto-2.jpeg" alt="Proyecto 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Blog Personal</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dignissimos rerum eveniet culpa atque optio quasi mollitia quidem nemo.</p>
+                            <a href="#" class="project-link">Ver proyecto</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./img/proyecto-3.jpeg" alt="Proyecto 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Aplicación del Clima</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Id voluptates hic nulla perspiciatis quasi.</p>
+                            <a href="#" class="project-link">Ver proyecto</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <form class="contact-form">
+                    <div class="form">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required placeholder="Nayib">
+                    </div>
+                    <div class="form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="Nayib@gmail.com">
+                    </div>
+                    <div class="form">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="informacion">
+                <h2>Redes sociales</h2>
+                <a href="https://github.com/home" target="_blank" title="Github"><img src="https://www.svgrepo.com/show/360451/github-circle.svg" alt="Github" width="50"></a>
+            
+                <a href="https://www.linkedin.com/home" target="_blank" title="Linkedln"><img src="https://blakeoliver.com.au/wp-content/uploads/2023/06/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930585_835.png" alt="linkedin" width="50"></a>
+            
+                <a href="https://www.instagram.com/nayibalexander_" target="_blank" title="instagram"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Intagram" width="50"></a>
+            </section>
+            <section class="footer-bottom">
+                <p>&copy; 2025 Nayib. Todos los derechos reservados</p>
+            </section>
+    </footer>
+</body>
+</html>
